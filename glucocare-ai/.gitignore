@@ -1,0 +1,15 @@
+.env
+*.db
+*.db-wal
+*.db-shm
+uploads/*
+!uploads/.gitkeep
+generated_reports/*
+!generated_reports/.gitkeep
+# Real patient datasets - never publish
+data/original/*
+data/processed/*.csv
+venv/
+__pycache__/
+node_modules/
+frontend/dist/
